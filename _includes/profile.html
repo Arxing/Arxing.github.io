@@ -1,0 +1,39 @@
+{%- assign profile = data.profile -%}
+
+<div class="profile row">
+  <div class="col-xs-12 text-center">
+
+    <img class="avatar rounded-circle" src="{{ profile.avatar }}" />
+
+    <div class="fs-1 fw-bold">
+      {{ profile.name }}
+    </div>
+
+    {% for contact in profile.contacts %}
+      {% assign icon = "" %}
+      {% assign url = contact[1] %}
+      {% case contact[0] %}
+        {% when "facebook" %}
+        {% assign icon = "bi-facebook" %}
+        {% when "github" %}
+        {% assign icon = "bi-github" %}
+        {% when "linked_in" %}
+        {% assign icon = "bi-linkedin" %}
+        {% when "email" %}
+        {% assign icon = "bi-envelope-fill" %}
+        {% assign url = "mailto:" | append: contact[1] %}
+      {% endcase %}
+
+      <a
+        href="{{ url }}"
+        class="text-decoration-none link-dark"
+        target="_blank">
+        <i class="bi {{ icon }} fs-2 mx-1"></i>
+      </a>
+    {% endfor %}
+
+    <div class="slogan text-white fs-4 py-3 my-4 fw-bold">
+      {{ profile.slogan }}
+    </div>
+  </div>
+</div>

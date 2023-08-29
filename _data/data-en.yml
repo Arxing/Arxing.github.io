@@ -1,0 +1,197 @@
+title: Arxing's Resume
+profile:
+  avatar: assets/images/avatar.png
+  name: Arxing
+  email: meiswind711108@gmail.com
+  slogan: Using my expertise and imagination to reshape the world.
+  contacts:
+    facebook: https://www.facebook.com/arxing.develop
+    github: https://github.com/Arxing
+    linked_in: https://www.linkedin.com/in/arxing/
+    email: meiswind711108@gmail.com
+introduction: |
+  When I was a child, I aspired to be an inventor with a vision of creating useful tools to enhance human life. 
+  However, as I delved into the field of information technology, I realized that programming could also fulfill my goals. 
+  This discovery marked the beginning of my journey as an engineer.
+
+  I'm constantly brimming with countless ideas, and during my spare time, I bring them to life.
+  I develop various open-source projects such as `Android/Kotlin libraries`, `Intellij-based plugins`, `command-line applications`, `Slack bots`, `Telegram bots`, and more.
+  While working on these tools, I've had to address various business requirements, which has led me to continuously expand the breadth of my skill set.
+  So, in addition to my primary expertise in Android development, I have explored different domains to varying depths.
+
+  My developed tools have now accumulated over `200,000` downloads, allowing me to materialize my expertise and imaginative ideas to assist fellow developers and people alike. 
+  I aspire to contribute to making this world a better place through innovation.
+skill_tree:
+  title: Skills
+  info:
+    - name: Android
+      icon: android.png
+      rate: 100
+    - name: Flutter
+      icon: flutter.png
+      rate: 70
+    - name: Slack Bot
+      icon: slack.png
+      rate: 95
+    - name: Telegram Bot
+      icon: telegram.png
+      rate: 68
+    - name: C#
+      icon: c_sharp.png
+      rate: 65
+    - name: Kotlin
+      icon: kotlin.png
+      rate: 100
+    - name: Java
+      icon: java.png
+      rate: 96
+    - name: Dart
+      icon: dart.png
+      rate: 75
+    - name: Gradle
+      icon: gradle.png
+      rate: 85
+    - name: Fastlane
+      icon: fastlane.png
+      rate: 70
+    - name: Firebase
+      icon: firebase.png
+      rate: 82
+    - name: RxJava
+      icon: rxjava.png
+      rate: 88
+    - name: Compose
+      icon: jetpack_compose.png
+      rate: 85
+    - name: Git
+      icon: git.png
+      rate: 92
+    - name: Jekyll
+      icon: jekyll.png
+      rate: 50  
+
+education:
+  title: Education
+  info:
+    - school: National Chin-Yi University of Technology
+      degree: Bachelor's Degree
+      field_of_study: Computer Science
+      time: 2011 - 2016
+      icon: edu-ncut.jpg
+      description: |
+        * Assistance Program for the Eight Queens Puzzle
+
+experience:
+  title: Work Experience
+  info:
+    - company: Pinkoi
+      title: Android Engineer
+      time: 2021/02 - Present
+      icon: com-pinkoi.png
+      description: |
+        * Development and maintenance of the Pinkoi(Android/Kotlin).
+        * Refactoring of the "Payment Methods" feature.
+        * Refactoring of the "Coupon" feature.
+        * Refactoring and modularization of the "Address Book" feature.
+        * Refactoring and modularization of the Tracking System.
+        * Refactoring and modularization of Networking/Certificate/WebView features.
+        * Automation of Android/iOS publishing and implementation of Slack Bot workflows.
+        * Design and implementation of an automated payment process for the company's internal beverage vending maching, including integration with Slack Bot.
+        * Implementatioon of Slack Bot for automated business report notifications.
+        
+    - company: NewType Games
+      title: Senior Android Engineer
+      time: 2020/08 - 2020/12
+      icon: com-newtype.png
+      description: |
+        * Development of the game platform's Android SDK (Android/Kotlin).
+        * Development of the game platform's Unity SDK (Unity/C#).
+
+    - company: XingChen
+      title: Android Developer/Lead
+      time: 2018/09 - 2020/06
+      icon: com-xc.png
+      description: |
+        * Leading a team of 3 Android/Flutter developers (technical leadership), providing technical training and consultation.
+        * Building the foundational architecture for Android projects (Android/Java).
+        * Building the foundational architecture for Flutter projects (Flutter/Dart).
+        * Designing and developing an "Internal Payment Notification System" (Android/Java/Xposed).
+        * Developing Intellij-Based IDE plugins (Intellij-Based Framework/Java).
+        * Developing Dart console tools (Dart).
+        * Developing automated bots for Telegram (Dart).
+        * Developing back-end APIs using Laravel (Laravel/PHP).
+
+    - company: Soute
+      title: Android Engineer
+      time: 2017/06 - 2018/06
+      icon:
+      description: |
+        * Android Project Development
+
+    - company: YouStars
+      title: Software Engineer
+      time: 2015/07 - 2017/03
+      icon: com-youstars.png
+      description: |
+        * "Taiwan Lottery" App Development and Maintenance (Android/Java).
+        * Development of the "Taiwan Lottery POS System" Application (.Net/WPF/C#).
+        * "Police Services" App Development and Maintenance (Android/Java).
+        * "Legislator Yang Cheng Chung" App Development and Maintenance (Android/Java).
+        * "Earthquake Disaster Relief" App Development and Maintenance (Android/Java).
+        * "Taichung Volunteer Brigade" App Development and Maintenance (Android/Java).
+        * "Kidney Treatment Mobile Diary" App Development and Maintenance (Android/Java).
+        * Development of an internal video/voice chat cross-platform SDK (WebRTC/Android/Java/iOS/Objective-C).
+        * Poker Card Recognition App Development (Android/Java).
+        * 3D Whack-a-Mole Game App (Unity/C#).
+portfolio:
+  title: Portfolio
+  info:
+    - category: Android Application
+      badge:
+      items:
+        - name: Poker Recognition App
+          content: |
+            The first company's interview test primarily involved heavy computation using OpenCV, encompassing tasks such as grayscale conversion, binarization, edge detection, contour detection, trigonometric functions, and a two-dimensional coordinate system, among others.
+
+            As shown in the image, it was required to accurately locate the corners of playing cards (even if they were partially obscured or incomplete) and extract the card's face to determine the card's number, subsequently displaying it.
+          images:
+            - src: pfl-poker-1.png
+            - src: pfl-poker-2.png
+        - name: Taiwan Lottery
+          images:
+            - src: pfl-lottery-1.png
+            - src: pfl-lottery-2.png
+            - src: pfl-lottery-3.png
+    - category: Console Application
+      items:      
+        - name: Assistance Program for the Eight Queens Puzzle
+          content: |
+            This is a console application written in C language designed to assist those solving the Eight Queens Puzzle in understanding the solving algorithm. 
+            The program displays the chessboard, chessboard indices, queen positions, and queen territories. 
+            It includes both manual and automatic modes.
+
+            In manual mode, users can interact with the program via the keyboard to move the cursor, set queens, remove queens, and reset the chessboard as needed. 
+            In automatic mode, the program will automatically demonstrate the problem-solving process and find all 92 non-unique solutions to the Eight Queens Puzzle.
+          images:
+            - src: pfl-queen_demo_auto.gif
+              caption: Demo(Automatic Mode)
+            - src: pfl-queen_demo_manual.gif
+              caption: Demo(Manual Mode)
+    - category: Intellij-Based IDE Plugin
+      badge: pfl-intellij.png
+      items:
+        - name: Chinese Converter
+          iframe:
+            width: 384
+            height: 319
+            src: https://plugins.jetbrains.com/embeddable/card/13559
+          content: |
+            This is a plugin that enables quick switching between Traditional and Simplified Chinese using a hotkey. 
+            It can be installed in all Intellij-Based IDEs, such as Android Studio, IntelliJ IDEA, CLion, GoLand, AppCode, PhpStorm, PyStorm, Rider, RubyMine, WebStorm, and more. Compared to other plugins with similar functionality, it offers faster and more user-friendly switching without the need to open additional windows, significantly enhancing development efficiency.
+        - name: Dart Fast Imports
+          iframe:
+            width: 384
+            height: 319
+            src: https://plugins.jetbrains.com/embeddable/card/13430
+          content: |
+            This is a plugin specifically designed for Flutter/Dart developers. It can be installed in Android Studio/IntelliJ IDEA to address the issue where scrolling the window to the top is required to import packages while developing in Dart.

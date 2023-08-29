@@ -1,0 +1,198 @@
+title: Arxing's Resume
+profile:
+  avatar: assets/images/avatar.png
+  name: Arxing
+  email: meiswind711108@gmail.com
+  slogan: 用我的專業與天馬行空來改變這個世界
+  contacts:
+    facebook: https://www.facebook.com/arxing.develop
+    github: https://github.com/Arxing
+    linked_in: https://www.linkedin.com/in/arxing/
+    email: meiswind711108@gmail.com
+introduction: |
+  小時候便立志成為一名發明家，願景是製造各種好用的工具來改善人類的生活，自從接觸了資訊工程後，發現寫程式也能達到我的目標，於是開啟了我的工程師之路。
+  
+
+  我總是有無數個 Idea 在腦中激盪，而我也會在閒暇之餘將其一一實現，我會開發各種 Open Source Project，像是 `Android/Kotlin Library`、`Intellij-Based Plugin`、`Command-Line Application`、`Slack Bot`、`Telegram Bot` ……等等，在開發這些工具的同時因為要面臨各種業務需求，因此也不斷地在擴增我技能樹的廣度，因此我除了主要專業 `Android` 之外，對其它領域都有不同深度的涉略。
+  
+
+  目前我開發的工具已累積超過 `200000` 次的下載量，落實用自己的專業與天馬行空的想法來幫助其他開發者及人們，期望幫助這個世界更加美好。
+skill_tree:
+  title: 技能樹
+  info:
+    - name: Android
+      icon: android.png
+      rate: 100
+    - name: Flutter
+      icon: flutter.png
+      rate: 70
+    - name: Slack Bot
+      icon: slack.png
+      rate: 95
+    - name: Telegram Bot
+      icon: telegram.png
+      rate: 68
+    - name: C#
+      icon: c_sharp.png
+      rate: 65
+    - name: Kotlin
+      icon: kotlin.png
+      rate: 100
+    - name: Java
+      icon: java.png
+      rate: 96
+    - name: Dart
+      icon: dart.png
+      rate: 75
+    - name: Gradle
+      icon: gradle.png
+      rate: 85
+    - name: Fastlane
+      icon: fastlane.png
+      rate: 70
+    - name: Firebase
+      icon: firebase.png
+      rate: 82
+    - name: RxJava
+      icon: rxjava.png
+      rate: 88
+    - name: Compose
+      icon: jetpack_compose.png
+      rate: 85
+    - name: Git
+      icon: git.png
+      rate: 92
+    - name: Jekyll
+      icon: jekyll.png
+      rate: 50  
+
+education:
+  title: 學歷
+  info:
+    - school: 國立勤益科技大學
+      degree: 學士學位
+      field_of_study: 資訊工程系
+      time: 2011 - 2016
+      icon: edu-ncut.jpg
+      description: |
+        * 八皇后問題輔助解題程式
+
+experience:
+  title: 工作經歷
+  info:
+    - company: Pinkoi
+      title: Android Engineer
+      time: 2021/02 - Present
+      icon: com-pinkoi.png
+      description: |
+        主要工作為維護及開發 Pinkoi App 以及 App Team 自動化流程，期間累積了大量重構經驗。
+
+        * 「Pinkoi」APP 開發及維護 (Android/Kotlin)
+        * 「付款方式」功能重構
+        * 「優惠券」功能重構
+        * 「地址簿」功能重構 & 模組化
+        * Tracking client 功能重構 & 模組化
+        * Network/Certificate/WebView 功能重構 & 模組化
+        * Android/iOS 發版自動化 + Slack Bot 流程設計 & 實作
+        * 公司內部飲料販賣機 + Slack Bot 自動化付款流程設計 & 實作
+        * Slack Bot 自動化業務報表通知
+
+    - company: 雷特遊戲有限公司
+      title: Senior Android Engineer
+      time: 2020/08 - 2020/12
+      icon: com-newtype.png
+      description: |
+        主要工作為維護及開發雷特遊戲平台 SDK(類似於 Garena 的角色), 與第三方遊戲開發商的遊戲串接、金流串接、使用者追蹤。
+
+        * 遊戲平台 Android SDK 開發(Android/Kotlin)
+        * 遊戲平台 Unity SDK 開發(Unity/C#)
+        * 使用 Phabricator 作為 Code Review 工具
+        * 敏捷開發, 實際運作 Scrum
+
+    - company: 興晨國際有限公司
+      title: Android Developer/Lead
+      time: 2018/09 - 2020/06
+      icon: com-xc.png
+      description: |
+        內部接案公司, 主要工作為擔任技術顧問及帶領 Android/Flutter Team 快速開發專案。
+
+        * 帶領 3 人 Android/Flutter 團隊(技術導向), 提供技術訓練及諮詢
+        * Android 專案基礎架構建設(Android/Java)
+        * Flutter 專案基礎架構建設(Flutter/Dart)
+        * 「內部金流到帳通知系統」設計及開發(Android/Java/Xposed)
+        * Intellij-Based IDE Plugin 開發(Intellij-Based Framework/Java)
+        * Dart 主控台工具開發(Dart)
+        * Telegram Bot 自動化機器人開發(Dart)
+        * Laravel 後端 API 開發(Laravel/PHP)
+
+    - company: 賽席爾商索特股份有限公司
+      title: Android Engineer
+      time: 2017/06 - 2018/06
+      icon:
+      description: |
+        * Android 專案開發
+        * AWS S3/Lambda
+
+    - company: 耀達電腦股份有限公司
+      title: Software Engineer
+      time: 2015/07 - 2017/03
+      icon: com-youstars.png
+      description: |
+        外部接案公司, 主要承接公益 APP, 後期主力開發「台灣彩券」系統。
+
+        * 「台灣彩券」APP 開發及維護(Android/Java)
+        * 「台灣彩券 POS 系統」應用程式開發(.Net/WPF/C#)
+        * 「警政服務」APP 開發及維護(Android/Java)
+        * 「楊正中議員」APP 開發及維護(Android/Java)
+        * 「地震防災救援」APP 開發及維護(Android/Java)
+        * 「台中義交大隊」APP 開發及維護(Android/Java)
+        * 「腎臟治療行動日誌」APP 開發及維護(Android/Java)
+        * 內部視訊/語音聊天雙平台 SDK 開發(WebRTC/Android/Java/iOS/Objective-C)
+        * 撲克牌辨識 APP(Android/Java)
+        * 3D 打地鼠遊戲 APP(Unity/C#)
+portfolio:
+  title: 作品集
+  info:
+    - category: Android Application
+      badge:
+      items:
+        - name: 撲克牌辨識APP
+          content: |
+            第一間公司面試的測驗題目，主要使用OpenCV做大量運算，使用到了灰階、二值、邊緣檢測、輪廓檢測、三角函數、二維座標系統…等。
+
+            如圖所示，可以正確定位撲克牌的角落(即使撲克牌有被擋住或不完整的出現)並抓取每張撲克牌的牌身從而判斷出撲克牌的數字並顯示。
+          images:
+            - src: pfl-poker-1.png
+            - src: pfl-poker-2.png
+        - name: 台灣彩券
+          images:
+            - src: pfl-lottery-1.png
+            - src: pfl-lottery-2.png
+            - src: pfl-lottery-3.png
+    - category: Console Application
+      items:      
+        - name: 八皇后問題輔助解題程式
+          content: |
+            使用C語言撰寫的主控台應用程式，用於輔助八皇后問題解題者瞭解解題演算法，程式中顯示了棋盤、棋盤索引、皇后位置及皇后領地，且設計了手動模式及自動模式，在手動模式中透過鍵盤互動可自行移動游標、設置皇后、移除皇后及重設棋盤，在自動模式中，程式將會自動演示解題過程並找到八皇后問題的全部92組非獨立解。
+          images:
+            - src: pfl-queen_demo_auto.gif
+              caption: 八皇后輔助程式 Demo（自動模式）
+            - src: pfl-queen_demo_manual.gif
+              caption: 八皇后輔助程式 Demo（手動模式）
+    - category: Intellij-Based IDE Plugin
+      badge: pfl-intellij.png
+      items:
+        - name: Chinese Converter
+          iframe:
+            width: 384
+            height: 319
+            src: https://plugins.jetbrains.com/embeddable/card/13559
+          content: |
+            這是一個可以一個熱鍵快速轉換繁/簡體中文的Plugin，可安裝於所有Intellij-Based的IDE，如`Android Studio`/`Intellij IDEA`/`CLion`/`GoLand`/`AppCode`/`PhpStorm`/`PyStorm`/`Rider`/`RubyMine`/`WebStorm`...等，相較於其他同樣功能的Plugin更加快速、簡易使用，而且不需另開任何視窗，大大提升開發效率。
+        - name: Dart Fast Imports
+          iframe:
+            width: 384
+            height: 319
+            src: https://plugins.jetbrains.com/embeddable/card/13430
+          content: |
+            這是一個專門為 Flutter/Dart 開發者而生的 Plugin，可安裝於 Android Studio/Intellij IDEA，解決在開發 Dart 時需要滾動視窗在最上方才能 Import 的問題
