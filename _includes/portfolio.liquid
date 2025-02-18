@@ -1,0 +1,58 @@
+{% assign portfolio = data.sections.portfolio %}
+
+<div id="portfolio" class="portfolio section custom-card">
+  <div class="top-title">{{ portfolio.title }}</div>
+  {% for category in portfolio.categories %}
+    <div class="card border-light">
+      <div class=" card-header">{{ category.category }}</div>
+      <div class="card-body">
+        {% if category.badge %}
+          <div class="row">
+            <div class="col">
+              <img src="assets/images/{{ category.badge }}" alt="" class="img-fluid">
+            </div>
+          </div>
+        {% endif %}
+
+        {% for item in category.items %}
+          <div class="row my-3">
+            <div class="col third-title card-title">{{ item.name }}</div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              {{ item.content | markdownify }}
+            </div>
+          </div>
+
+          {% if item.iframe %}
+            <iframe src="{{ item.iframe.src }}" width="{{ item.iframe.width }}" height="{{ item.iframe.height }}"></iframe>
+          {% endif %}
+
+          {% assign size = item.images.size | at_most: 3 %}
+          <div class="row gx-5 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-{{ size }}">
+            {% for image in item.images %}
+              <div class="col">
+                <figure class="figure">
+                  <img src="assets/images/{{ image.src }}" alt="" class="figure-img img-fluid image mh">
+                  <figcaption class="figure-caption text-end">{{ image.caption }}</figcaption>
+                </figure>
+              </div>
+            {% endfor %}
+          </div>
+
+          <div class="row gx-5 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-2">
+            {% for video in item.videos %}
+              <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="{{ video.src }}" allowfullscreen></iframe>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

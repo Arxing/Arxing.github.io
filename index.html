@@ -2,16 +2,7 @@
 layout: default
 ---
 
-{%- assign data = site.data.data -%}
+{% assign isEn = false %}
+{% assign data = site.data.data %}
 
-{%- include profile.html -%}
-
-{%- include introduction.html -%}
-
-{%- include skill_tree.html -%}
-
-{%- include education.html -%}
-
-{%- include experience.html -%}
-
-{%- include portfolio.html -%}
+{% include index.liquid %}

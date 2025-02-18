@@ -1,0 +1,16 @@
+{% assign highlights = data.sections.highlights %}
+
+<div id="highlights" class="highlights section">
+  <div class="top-title">{{ highlights.title }}</div>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gx-4 gy-2">
+    {% for item in highlights.items %}
+      <div class="col">
+        <div class="mb-2 item rounded-pill">
+          <p class="text-center text-muted p-2">
+            <i class="bi bi-hash"></i> {{ item }}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

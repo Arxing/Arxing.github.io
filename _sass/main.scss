@@ -1,5 +1,36 @@
+// 定義變數
+$color-bg: #f8f8f8;
+$color-dark-gray: #555;
+$color-light-gray: #fafafa;
+$color-light-green: #f1f9e3;
+$color-dark-green: rgb(7, 89, 51);
+
+$progress-bar-bg:                   $color-dark-green;
+
 html body {
-  background-color: #f8f8f8;
+  background-color: $color-bg;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.top-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.second-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.third-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .profile {
@@ -12,9 +43,14 @@ html body {
   }
 
   .slogan {
-    background-color: #555;
+    background-color: $color-dark-green;
   }
-  
+}
+
+.highlights {
+  .item {
+    background-color: $color-light-green;
+  }
 }
 
 .skills {
@@ -24,6 +60,10 @@ html body {
   .item_title {
     vertical-align: middle;
   }
+
+  .progress {
+    height: 0.4rem;
+  }
 }
 
 .education {
@@ -32,7 +72,102 @@ html body {
   }
 }
 
-.portfolio {
-  .image {
+.language-nav {
+  .nav-link {
+    color: #6c757d;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #f8f9fa;
+      color: #000;
+    }
+
+    &.active {
+      background-color: #e9ecef;
+      color: #000;
+      font-weight: 500;
+    }
   }
+}
+
+.experience {
+  position: relative;
+
+  .timeline {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 1rem;
+      top: 10px;
+      bottom: 0;
+      width: 3px;
+      background: $color-dark-green;
+    }
+  }
+
+  .timeline-item {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 30px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 1rem;
+      top: 10px;
+      width: 12px;
+      height: 12px;
+      background: $color-dark-green;
+      border-radius: 50%;
+      transform: translateX(-4.5px);
+    }
+  }
+}
+
+.top-hr {
+  border: 0;
+  height: 2px;
+  background: $color-dark-green;
+}
+
+.second-hr {
+  border: 0;
+  height: 5px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  background: $color-light-green;
+}
+
+.second-hr:last-child {
+  height: 0px;
+}
+
+.custom-card {
+  .card {
+    margin-bottom: 1rem;
+    background-color: $color-light-green; /* 自定義顏色 */
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    .card-header {
+      background-color: $color-dark-green;
+      color: white;
+      font-weight: bold;
+    }
+  } 
+}
+
+.embed-responsive-item {
+  width: 100%;
+  min-height: 500px;
 }

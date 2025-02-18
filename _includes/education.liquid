@@ -1,0 +1,23 @@
+{% assign education = data.sections.education %}
+
+<div id="education" class="education section">
+  <div class="top-title">{{ education.title }}</div>
+  {% for item in education.items %}
+    <div class="row g-3 mb-4">
+      <div class="col-2 col-sm-1">
+        <img
+          src="assets/images/{{ item.icon }}"
+          alt="{{ item.school }} logo"
+          class="img-fluid">
+      </div>
+      <div class="col">
+        <h3 class="fs-4 fw-bold mb-2">{{ item.school }}</h3>
+        <p class="fs-6 mb-1">{{ item.degree }}, {{ item.field_of_study }}</p>
+        <p class="text-muted mb-0">{{ item.time }}</p>
+        {% if item.description %}
+          <p class="mt-2 mb-0">{{ item.description | markdownify }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

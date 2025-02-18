@@ -1,0 +1,26 @@
+{% assign skills = data.sections.skills %}
+
+<div id="skills" class="skills section custom-card">
+  <div class="top-title">{{ skills.title }}</div>
+  {% for category in skills.categories %}
+  <div class="card border-light">
+    <div class="card-header">{{ category.category }}</div>
+    <div class="row row-cols-1 row-cols-lg-3 gx-5 gy-3 card-body">
+      {% assign items = category.items | sort: 'rate' | reverse %}
+      {% for item in items %}
+      <div class="col">
+        <div class="d-flex align-items-center">
+          {% if item.icon %}
+          <img src="assets/images/{{ item.icon }}" alt="{{ item.name }}" class="icon me-2">
+          {% endif %}
+          <div class="fs-6 fw-bold">{{ item.name }}</div>
+        </div>
+        <div class="progress mt-2">
+          <div class="progress-bar bg-success" style="width: {{ item.rate }}%"></div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

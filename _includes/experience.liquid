@@ -1,0 +1,43 @@
+{% assign experience = data.sections.experience %}
+
+<div id="experience" class="experience section">
+  <div class="top-title">{{ experience.title }}</div>
+
+  {% for item in experience.items %}
+  <div class="row g-3">
+    <div class="col-2 col-sm-1">
+      {% if item.icon %}
+      <img src="assets/images/{{ item.icon }}" alt="{{ item.company }} logo" class="img-fluid">
+      {% endif %}
+    </div>
+    <div class="col">
+      <div class="fs-4 fw-bold">{{ item.title }} • {{ item.company }}</div>
+      <div class="text-muted">{{ item.time }}</div>
+
+      {% if item.description %}
+      <div class="mt-2">{{ item.description | markdownify }}</div>
+      {% endif %}
+
+      {% if item.key_points %}
+      <div class="timeline mt-3">
+        {% for keyPoint in item.key_points %}
+        <div class="col timeline-item">
+          <div class="ms-3">
+            <div class="fs-5 fw-bold">{{ keyPoint.title }}</div>
+            <div class="mt-2">{{ keyPoint.detail | markdownify }}</div>
+            <div class="row g-4">
+              {% for image in keyPoint.images %}
+                <div class="col-6 col-lg-4">
+                  <img src="assets/images/{{ image }}" alt="" class="img-fluid">
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

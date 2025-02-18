@@ -1,0 +1,25 @@
+{% assign profile = data.sections.profile %}
+
+<div class="profile row">
+  <div class="col-xs-12 text-center">
+    <img class="avatar rounded-circle" src="{{ profile.avatar }}" />
+
+    <div class="fs-1 fw-bold">
+      {{ profile.name }}
+    </div>
+
+    {% for contact in profile.contacts %}
+    <a href="{{ contact.url }}" class="text-decoration-none link-dark" target="_blank">
+      <i class="bi {{ contact.icon }} fs-2 mx-1"></i>
+    </a>
+    {% endfor %}
+
+    <div class="slogan text-white fs-4 py-3 my-4 fw-bold">
+      {{ profile.slogan }}
+    </div>
+  </div>
+
+  <div>
+    {{ profile.introduction | markdownify }}
+  </div>
+</div>

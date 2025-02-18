@@ -1,197 +1,394 @@
-title: Arxing's Resume
-profile:
-  avatar: assets/images/avatar.png
-  name: Arxing
-  email: meiswind711108@gmail.com
-  slogan: Using my expertise and imagination to reshape the world.
-  contacts:
-    facebook: https://www.facebook.com/arxing.develop
-    github: https://github.com/Arxing
-    linked_in: https://www.linkedin.com/in/arxing/
+web_title: Arxing's Resume
+sections:
+  profile:
+    title: Profile
+    avatar: assets/images/avatar.png
+    name: Arxing
     email: meiswind711108@gmail.com
-introduction: |
-  When I was a child, I aspired to be an inventor with a vision of creating useful tools to enhance human life. 
-  However, as I delved into the field of information technology, I realized that programming could also fulfill my goals. 
-  This discovery marked the beginning of my journey as an engineer.
+    slogan: Using my expertise and imagination to reshape the world.
+    contacts:
+      - url: https://github.com/Arxing
+        icon: bi-github
+      - url: https://www.linkedin.com/in/arxing/
+        icon: bi-linkedin
+      - url: mailto:meiswind711108@gmail.com
+        icon: bi-envelope-fill
+    introduction: |
+      When I was a child, I aspired to be an inventor with a vision of creating useful tools to enhance human life. 
+      However, as I delved into the field of information technology, I realized that programming could also fulfill my goals. 
+      This discovery marked the beginning of my journey as an engineer.
 
-  I'm constantly brimming with countless ideas, and during my spare time, I bring them to life.
-  I develop various open-source projects such as `Android/Kotlin libraries`, `Intellij-based plugins`, `command-line applications`, `Slack bots`, `Telegram bots`, and more.
-  While working on these tools, I've had to address various business requirements, which has led me to continuously expand the breadth of my skill set.
-  So, in addition to my primary expertise in Android development, I have explored different domains to varying depths.
+      I'm constantly brimming with countless ideas, and during my spare time, I bring them to life.
+      I develop various open-source projects such as `Android/Kotlin libraries`, `Intellij-based plugins`, `command-line applications`, `Slack bots`, `Telegram bots`, and more.
+      While working on these tools, I've had to address various business requirements, which has led me to continuously expand the breadth of my skill set.
+      So, in addition to my primary expertise in Android development, I have explored different domains to varying depths.
 
-  My developed tools have now accumulated over `200,000` downloads, allowing me to materialize my expertise and imaginative ideas to assist fellow developers and people alike. 
-  I aspire to contribute to making this world a better place through innovation.
-skill_tree:
-  title: Skills
-  info:
-    - name: Android
-      icon: android.png
-      rate: 100
-    - name: Flutter
-      icon: flutter.png
-      rate: 70
-    - name: Slack Bot
-      icon: slack.png
-      rate: 95
-    - name: Telegram Bot
-      icon: telegram.png
-      rate: 68
-    - name: C#
-      icon: c_sharp.png
-      rate: 65
-    - name: Kotlin
-      icon: kotlin.png
-      rate: 100
-    - name: Java
-      icon: java.png
-      rate: 96
-    - name: Dart
-      icon: dart.png
-      rate: 75
-    - name: Gradle
-      icon: gradle.png
-      rate: 85
-    - name: Fastlane
-      icon: fastlane.png
-      rate: 70
-    - name: Firebase
-      icon: firebase.png
-      rate: 82
-    - name: RxJava
-      icon: rxjava.png
-      rate: 88
-    - name: Compose
-      icon: jetpack_compose.png
-      rate: 85
-    - name: Git
-      icon: git.png
-      rate: 92
-    - name: Jekyll
-      icon: jekyll.png
-      rate: 50  
+      My developed tools have now accumulated over `320,000` downloads, allowing me to materialize my expertise and imaginative ideas to assist fellow developers and people alike. 
+      I aspire to contribute to making this world a better place through innovation.
 
-education:
-  title: Education
-  info:
-    - school: National Chin-Yi University of Technology
-      degree: Bachelor's Degree
-      field_of_study: Computer Science
-      time: 2011 - 2016
-      icon: edu-ncut.jpg
-      description: |
-        * Assistance Program for the Eight Queens Puzzle
+  highlights:
+    title: Highlights
+    items:
+      - Imagination and creativity
+      - High-quality coding standards
+      - Passion for learning new technologies
+      - Total downloads of my tools exceed 320,000
+      - Rich refactoring experience
+      - Broad skill set
 
-experience:
-  title: Work Experience
-  info:
-    - company: Pinkoi
-      title: Android Engineer
-      time: 2021/02 - Present
-      icon: com-pinkoi.png
-      description: |
-        * Development and maintenance of the Pinkoi(Android/Kotlin).
-        * Refactoring of the "Payment Methods" feature.
-        * Refactoring of the "Coupon" feature.
-        * Refactoring and modularization of the "Address Book" feature.
-        * Refactoring and modularization of the Tracking System.
-        * Refactoring and modularization of Networking/Certificate/WebView features.
-        * Automation of Android/iOS publishing and implementation of Slack Bot workflows.
-        * Design and implementation of an automated payment process for the company's internal beverage vending maching, including integration with Slack Bot.
-        * Implementatioon of Slack Bot for automated business report notifications.
-        
-    - company: NewType Games
-      title: Senior Android Engineer
-      time: 2020/08 - 2020/12
-      icon: com-newtype.png
-      description: |
-        * Development of the game platform's Android SDK (Android/Kotlin).
-        * Development of the game platform's Unity SDK (Unity/C#).
+  skills:
+    title: Skills
+    categories:
+      - category: Languages
+        items:
+          - name: Kotlin
+            icon: kotlin.png
+            rate: 100
+          - name: Java
+            icon: java.png
+            rate: 100
+          - name: Dart
+            icon: dart.png
+            rate: 85
+          - name: C#
+            icon: c_sharp.png
+            rate: 75
+          - name: JavaScript
+            icon: js.png
+            rate: 70
+          - name: PHP
+            icon: php.svg
+            rate: 50
+      - category: Mobile App
+        items:
+          - name: Android
+            icon: android.png
+            rate: 100
+          - name: Flutter
+            icon: flutter.png
+            rate: 70
+          - name: RxJava
+            icon: rxjava.png
+            rate: 100
+          - name: Kotlin Compose
+            icon: jetpack_compose.png
+            rate: 100
+      - category: Bot
+        items:
+          - name: Slack Bot
+            icon: slack.png
+            rate: 100
+          - name: Telegram Bot
+            icon: telegram.png
+            rate: 70
+      - category: Backend
+        items:
+          - name: Ktor
+            icon: ktor.png
+            rate: 80
+          - name: MySQL
+            icon: mysql.png
+            rate: 40
+          - name: Laravel
+            icon: laravel.png
+            rate: 40
+      - category: Frontend
+        items:
+          - name: KMP
+            icon: kmp.png
+            rate: 85
+          - name: Jekyll
+            icon: jekyll.png
+            rate: 60
+      - category: DevOps
+        items:
+          - name: Fastlane
+            icon: fastlane.png
+            rate: 70
+          - name: Firebase
+            icon: firebase.png
+            rate: 82
+          - name: GCP
+            icon: gcp.png
+            rate: 60
+          - name: Git
+            icon: git.png
+            rate: 92
+          - name: Gradle
+            icon: gradle.png
+            rate: 92
+          - name: GitHub Actions
+            icon: github.png
+            rate: 70
+          - name: AWS
+            icon: aws.png
+            rate: 35
+          - name: Docker
+            icon: docker.webp
+            rate: 25
+      - category: Game
+        items:
+          - name: Unity3D
+            icon: unity.png
+            rate: 40
+      - category: Others
+        items:
+          - name: Graph API
+            icon: facebook.png
+            rate: 40
 
-    - company: XingChen
-      title: Android Developer/Lead
-      time: 2018/09 - 2020/06
-      icon: com-xc.png
-      description: |
-        * Leading a team of 3 Android/Flutter developers (technical leadership), providing technical training and consultation.
-        * Building the foundational architecture for Android projects (Android/Java).
-        * Building the foundational architecture for Flutter projects (Flutter/Dart).
-        * Designing and developing an "Internal Payment Notification System" (Android/Java/Xposed).
-        * Developing Intellij-Based IDE plugins (Intellij-Based Framework/Java).
-        * Developing Dart console tools (Dart).
-        * Developing automated bots for Telegram (Dart).
-        * Developing back-end APIs using Laravel (Laravel/PHP).
+  education:
+    title: Education
+    items:
+      - school: National Chin-Yi University of Technology
+        degree: Bachelor's Degree
+        field_of_study: Computer Science
+        time: 2011 - 2016
+        icon: edu-ncut.jpg
+        description: |
+          * N-Queens Problem Solving Assistant Program
 
-    - company: Soute
-      title: Android Engineer
-      time: 2017/06 - 2018/06
-      icon:
-      description: |
-        * Android Project Development
+  experience:
+    title: Work Experience
+    items:
+      - company: Pinkoi
+        title: Android Engineer
+        time: 2021/02 - 2024/12
+        icon: com-pinkoi.png
+        description: |
+          Mainly responsible for maintaining and developing various features of the Pinkoi App, focusing on different aspects according to the team.
+        key_points:
+          - title: Refactoring Experience Like a Shield Machine
+            images: 
+              - tbm.jpg
+            detail: |
+              * During the development process, if I encounter features that are difficult to maintain/extend, I usually proceed with refactoring directly (the scope of refactoring depends on the situation) and deliver functionality within the same timeframe, just like a shield machine digging a tunnel, steadily pushing forward regardless of obstacles.
+              * Took the initiative to refactor several core large features, such as shopping cart, checkout process, address book, coupon, product search page, brand advertisement exposure logic, etc.
+          - title: Establishing CI/CD Process for App Team from 0 to 1
+            detail: |
+              The CI/CD tools used by the App Team went through three iterations:
+              1. Initially 100% using Bitrise platform
+              2. Then a self-built SlackBot + Fastlane
+              3. Finally, GitHub Actions Self Hosted Runners + Fastlane
+              
+              I was mainly responsible for the development of the SlackBot, which allows App Team members to directly operate the App CI/CD process from Slack, such as weekly releases/hotfixes, and integrates with Google Calendar/Gmail. Google Calendar visualizes the current process progress, while Gmail receives emails from Google Play Console/App Store to track version release status.
+          - title: Gradually Evolving SlackBot
+            images:
+              - a
+            detail: |
+              Since the CI/CD process iterated to the third version, the SlackBot was retired, but I transformed it into an automated solution for all Pinkoi members, continuously developing many convenient features that are widely used:
+              * Integrated with the internal vending machine at Pinkoi, allowing employees to operate payments directly on Slack!
+              * Payment QRCode Bot, which can call out the payer's QRCode with just one sentence, and it never expires!
+              * Dice Bot, the best tool for selecting the host of Team Building!
 
-    - company: YouStars
-      title: Software Engineer
-      time: 2015/07 - 2017/03
-      icon: com-youstars.png
-      description: |
-        * "Taiwan Lottery" App Development and Maintenance (Android/Java).
-        * Development of the "Taiwan Lottery POS System" Application (.Net/WPF/C#).
-        * "Police Services" App Development and Maintenance (Android/Java).
-        * "Legislator Yang Cheng Chung" App Development and Maintenance (Android/Java).
-        * "Earthquake Disaster Relief" App Development and Maintenance (Android/Java).
-        * "Taichung Volunteer Brigade" App Development and Maintenance (Android/Java).
-        * "Kidney Treatment Mobile Diary" App Development and Maintenance (Android/Java).
-        * Development of an internal video/voice chat cross-platform SDK (WebRTC/Android/Java/iOS/Objective-C).
-        * Poker Card Recognition App Development (Android/Java).
-        * 3D Whack-a-Mole Game App (Unity/C#).
-portfolio:
-  title: Portfolio
-  info:
-    - category: Android Application
-      badge:
-      items:
-        - name: Poker Recognition App
-          content: |
-            The first company's interview test primarily involved heavy computation using OpenCV, encompassing tasks such as grayscale conversion, binarization, edge detection, contour detection, trigonometric functions, and a two-dimensional coordinate system, among others.
+      - company: Newtype Game Co., Ltd.
+        title: Senior Android Engineer
+        time: 2020/08 - 2020/12
+        icon: com-newtype.png
+        description: |
+          Mainly responsible for maintaining and developing the Ret Game Platform SDK (similar to Garena), integrating with third-party game developers' games, payment integration, and user tracking.
 
-            As shown in the image, it was required to accurately locate the corners of playing cards (even if they were partially obscured or incomplete) and extract the card's face to determine the card's number, subsequently displaying it.
-          images:
-            - src: pfl-poker-1.png
-            - src: pfl-poker-2.png
-        - name: Taiwan Lottery
-          images:
-            - src: pfl-lottery-1.png
-            - src: pfl-lottery-2.png
-            - src: pfl-lottery-3.png
-    - category: Console Application
-      items:      
-        - name: Assistance Program for the Eight Queens Puzzle
-          content: |
-            This is a console application written in C language designed to assist those solving the Eight Queens Puzzle in understanding the solving algorithm. 
-            The program displays the chessboard, chessboard indices, queen positions, and queen territories. 
-            It includes both manual and automatic modes.
+          * Android SDK development for the game platform (Android/Kotlin)
+          * Unity SDK development for the game platform (Unity/C#)
+          * Used Phabricator as the Code Review tool
+          * Agile development, operating Scrum
 
-            In manual mode, users can interact with the program via the keyboard to move the cursor, set queens, remove queens, and reset the chessboard as needed. 
-            In automatic mode, the program will automatically demonstrate the problem-solving process and find all 92 non-unique solutions to the Eight Queens Puzzle.
-          images:
-            - src: pfl-queen_demo_auto.gif
-              caption: Demo(Automatic Mode)
-            - src: pfl-queen_demo_manual.gif
-              caption: Demo(Manual Mode)
-    - category: Intellij-Based IDE Plugin
-      badge: pfl-intellij.png
-      items:
-        - name: Chinese Converter
-          iframe:
-            width: 384
-            height: 319
-            src: https://plugins.jetbrains.com/embeddable/card/13559
-          content: |
-            This is a plugin that enables quick switching between Traditional and Simplified Chinese using a hotkey. 
-            It can be installed in all Intellij-Based IDEs, such as Android Studio, IntelliJ IDEA, CLion, GoLand, AppCode, PhpStorm, PyStorm, Rider, RubyMine, WebStorm, and more. Compared to other plugins with similar functionality, it offers faster and more user-friendly switching without the need to open additional windows, significantly enhancing development efficiency.
-        - name: Dart Fast Imports
-          iframe:
-            width: 384
-            height: 319
-            src: https://plugins.jetbrains.com/embeddable/card/13430
-          content: |
-            This is a plugin specifically designed for Flutter/Dart developers. It can be installed in Android Studio/IntelliJ IDEA to address the issue where scrolling the window to the top is required to import packages while developing in Dart.
+      - company: XingChen International Co., Ltd.
+        title: Android Developer/Lead
+        time: 2018/09 - 2020/06
+        icon: com-xc.png
+        description: |
+          An internal project company, mainly working as a technical consultant and leading the Android/Flutter Team to rapidly develop projects.
+
+          * Led a 3-person Android/Flutter team (technically oriented), providing technical training and consulting
+          * Built the infrastructure for Android projects (Android/Java)
+          * Built the infrastructure for Flutter projects (Flutter/Dart)
+          * Designed and developed the "Internal Payment Notification System" (Android/Java/Xposed)
+          * Developed Intellij-Based IDE Plugins (Intellij-Based Framework/Java)
+          * Developed Dart console tools (Dart)
+          * Developed Telegram Bot automation (Dart)
+          * Developed Laravel backend APIs (Laravel/PHP)
+
+      - company: Soute Co., Ltd.
+        title: Android Engineer
+        time: 2017/06 - 2018/06
+        icon:
+        description: |
+          * Android project development
+          * AWS S3/Lambda
+
+      - company: YouStars Co., Ltd.
+        title: Software Engineer
+        time: 2015/07 - 2017/03
+        icon: com-youstars.png
+        description: |
+          An external contracting company, mainly undertaking public welfare apps, and later focusing on developing the "Taiwan Lottery" system.
+
+          * Developed and maintained the "Taiwan Lottery" app (Android/Java)
+          * Developed the "Taiwan Lottery POS System" application (.Net/WPF/C#)
+          * Developed and maintained the "Police Service" app (Android/Java)
+          * Developed and maintained the "Yang Zhengzhong's app" (Android/Java)
+          * Developed and maintained the "Earthquake Disaster Relief" app (Android/Java)
+          * Developed and maintained the "Taichung Yi Jiao Da Dui" app (Android/Java)
+          * Developed and maintained the "Kidney Treatment Action Diary" app (Android/Java)
+          * Developed an internal video/audio chat dual-platform SDK (WebRTC/Android/Java/iOS/Objective-C)
+          * Developed a poker recognition app (Android/Java)
+          * Developed a 3D whack-a-mole game app (Unity/C#)
+
+  portfolio:
+    title: Portfolio
+    categories:
+      - category: Pinkoi
+        badge: pinkoi.png
+        items:
+          - name: Christmas Snow Effect
+            content: |
+              A snow effect module developed using Android Compose, where particles can be freely replaced with ice crystals or custom images, and snow accumulation effects can be enabled.
+            videos:
+              - src: https://www.youtube.com/embed/5UgF2q3yXyc
+          - name: |
+              "Discover" Feature Shared Transition Effects
+            content: |
+              The "Discover" feature uses a lot of transition effects between pages, implemented using the Compose Shared Transition API.
+            videos:
+              - src: https://www.youtube.com/embed/1EXn0Y1zIwM
+      - category: Slack Bot
+        badge: slackbot.webp
+        items:
+          - name: Pinkoi Slack Bot - Vending Machine Interaction Bot
+            content: |
+              The company has a vending machine, and each month the company gives each employee a certain amount of points tied to their payment code, which can be used in the vending machine.
+
+              The original payment process for the vending machine is as follows:
+              1. Go to the vending machine and press the drink you want
+              2. Scan the QR Code on the vending machine to enter the payment page
+              3. The payment page receives the drink that was pressed on the vending machine
+              4. Enter the payment code provided by the company and check out
+              5. The drink drops down, ending the process
+
+              There are a few inconvenient points, such as having to scan the QR Code and enter the hard-to-find payment code every time, so I had the idea to integrate this process into the Slack Bot, encrypting the payment code in the Slack Bot DB, making the process simpler:
+              1. Go to the vending machine and press the drink you want
+              2. A notification will pop up on Slack, showing "XXX pressed the vending machine, wants to drink a drink worth XXX"
+              3. At this point, "the person" can press the payment button, or "others" can also press the payment button to help pay
+              4. The drink drops down, ending the process
+          
+              Based on this process, those who are not drinking can "contribute their points" to treat others!
+
+              Later, I developed the "Rich Mode", when someone activates the Rich Mode, the vending machine process changes to:
+              1. Go to the vending machine and press the drink you want
+              2. A notification will pop up on Slack, showing "XXX pressed the vending machine, wants to drink a drink worth XXX"
+              3. The Slack Bot detects that a rich person is present and directly uses the payment code tied to the rich person to pay
+              4. The drink drops down, ending the process
+
+              The entire experience becomes that whatever drink you press will drop down! Very convenient!
+            images:
+              - src: drinking_1.png
+              - src: drinking_2.png
+              - src: drinking_3.png
+              - src: drinking_4.png
+              - src: drinking_5.png
+              - src: drinking_6.png            
+          - name: Pinkoi Slack Bot - Payment QRCode Bot
+            content: |
+              When colleagues go out to eat, often one person pays first, and others later transfer money to him. However, the person receiving the money has to keep sharing his transfer QRCode, and the QRCode shared by everyone not only expires but is also difficult to distinguish whose is whose. Thus, I was inspired to create a bot that can call out the Payment QRCode from the Slack Bot.
+
+              This feature uses TWQR technology to generate QRCode, so the QRCode can `never expire`!
+            
+              Additionally, it uses [Awesome-qr.js](https://www.npmjs.com/package/awesome-qr) to generate customizable QRCode, allowing everyone to upload their favorite QRCode background, `even GIFs`! No more worrying about misidentifying QRCode!
+
+              Finally, using the interactive way of the Slack Bot to call out the QRCode, and it also provides editing functionality, `allowing you to change the receiving account and background image anytime, anywhere`!
+            images:
+              - src: payment_qr_1.png
+              - src: payment_qr_2.png
+              - src: payment_qr_3.png
+          - name: Pinkoi Slack Bot - Dice Bot
+            content: |
+              When deciding on the organizer for a team dinner, it is often done by rolling dice. There are many dice bots on Slack, but their functions are incomplete, so I thought why not just write one myself.
+              
+              The functions are as follows:
+              1. Can be triggered using Slash-Command or Message Event, so it can be used in both channels and threads
+              2. Can customize the rules for rolling dice, such as the range of the dice, the number of rolls per person, and the winning rules
+              3. Everyone can see their rolling results during the rolling process, and it will immediately sort according to the winning rules
+              4. After everyone has rolled, they can press the settlement button, which will determine the winner based on the winning rules
+            images:
+              - src: dice_1.png
+              - src: dice_2.png
+          - name: Pinkoi Slack Bot - Quick Group Mention Bot
+            content: |
+              Although Slack provides Group Mention functionality, the settings have to be manually configured by the administrator, and it can only be used with formal groups. Therefore, I wrote a version for employees to use themselves.
+
+              The functions are as follows:
+              1. Everyone can create unlimited groups
+              2. To add or remove people from the group, just one sentence is needed
+              3. When mentioning people in the group, only one command is needed
+              4. Groups can also set soft links between each other, achieving alias functionality
+            images:
+              - src: grouper_1.png
+              - src: grouper_2.png
+          - name: Pinkoi Slack Bot - Lis Reactions Bot
+            content: |
+              Can be used to display the list of emoji responses to messages and can directly copy the email list or mention list, commonly used in situations where statistics are done using emojis.
+            images:
+              - src: list_reaction_1.png
+              - src: list_reaction_2.gif
+          - name: Pinkoi Slack Bot - Emoji Kitchen Bot
+            content: |
+            images:
+              - src: emoji_kitchen_1.png
+              - src: emoji_kitchen_2.png
+          - name: Pinkoi Slack Bot - Get Member Information Bot
+            content: |
+            images:
+              - src: user_info_1.png
+              - src: user_info_2.png
+      - category: Android Application
+        badge:
+        items:
+          - name: Poker Card Recognition APP
+            content: |
+              The test question for the first company I interviewed at, mainly using OpenCV for extensive calculations, utilizing grayscale, binary, edge detection, contour detection, trigonometric functions, two-dimensional coordinate systems, etc.
+
+              As shown in the picture, it can accurately locate the corners of the poker card (even if the poker card is blocked or appears incomplete) and capture the body of each poker card to determine the number and display it.
+            images:
+              - src: pfl-poker-1.png
+              - src: pfl-poker-2.png
+          - name: Taiwan Lottery
+            images:
+              - src: pfl-lottery-1.png
+              - src: pfl-lottery-2.png
+              - src: pfl-lottery-3.png
+      - category: Console Application
+        items:      
+          - name: N-Queens Problem Solving Assistant Program
+            content: |
+              A console application written in C language, used to assist solvers of the N-Queens problem in understanding the solving algorithm. The program displays the chessboard, chessboard index, queen positions, and queen territories, and is designed with both manual and automatic modes. In manual mode, users can interact through the keyboard to move the cursor, set queens, remove queens, and reset the chessboard. In automatic mode, the program will automatically demonstrate the solving process and find all 92 non-independent solutions to the N-Queens problem.
+            images:
+              - src: pfl-queen_demo_auto.gif
+                caption: N-Queens Assistant Program Demo (Automatic Mode)
+              - src: pfl-queen_demo_manual.gif
+                caption: N-Queens Assistant Program Demo (Manual Mode)
+      - category: Intellij-Based IDE Plugin
+        badge: pfl-intellij.png
+        items:
+          - name: Chinese Converter
+            iframe:
+              width: 384
+              height: 319
+              src: https://plugins.jetbrains.com/embeddable/card/13559
+            content: |
+              This is a plugin that allows for quick conversion between traditional and simplified Chinese with a hotkey. It can be installed in all Intellij-Based IDEs, such as `Android Studio`/`Intellij IDEA`/`CLion`/`GoLand`/`AppCode`/`PhpStorm`/`PyStorm`/`Rider`/`RubyMine`/`WebStorm`... etc. Compared to other plugins with similar functionality, it is faster and easier to use, and does not require opening any additional windows, greatly improving development efficiency.
+          - name: Dart Fast Imports
+            iframe:
+              width: 384
+              height: 319
+              src: https://plugins.jetbrains.com/embeddable/card/13430
+            content: |
+              This is a plugin designed for Flutter/Dart developers, which can be installed in Android Studio/Intellij IDEA, solving the problem of needing to scroll to the top of the window to import while developing Dart.
+      - category: Web
+        badge:
+        items:
+          - name: Personal Resume (this webpage)
+            content: |
+              [Source Code](https://github.com/Arxing/Arxing.github.io)
+
+              This is my personal resume, which is also this webpage, built using GitHub Pages + Jekyll + Bootstrap.

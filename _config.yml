@@ -1,6 +1,9 @@
 title: Arxing's Resume
 
-markdown: CommonMark
+markdown: kramdown
+highlighter: rouge
 
-kramdown:  
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   parse_block_html: true
