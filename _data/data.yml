@@ -31,6 +31,7 @@ sections:
       - 作品總下載量 >32萬
       - 豐富的重構經驗
       - 廣闊的技能樹
+      - 自動化狂人
   skills:
     title: 技能樹
     categories:
@@ -94,7 +95,10 @@ sections:
             rate: 85
           - name: Jekyll
             icon: jekyll.png
-            rate: 60
+            rate: 70
+          - name: Bootstrap
+            icon: bootstrap.png
+            rate: 50
       - category: DevOps
         items:
           - name: Fastlane
@@ -126,12 +130,6 @@ sections:
           - name: Unity3D
             icon: unity.png
             rate: 40
-      - category: Others
-        items:
-          - name: Graph API
-            icon: facebook.png
-            rate: 40
-
   education:
     title: 學歷
     items:
@@ -161,6 +159,8 @@ sections:
                 就像是挖掘隧道的潛盾機一樣，無論遇到什麼阻礙都會穩穩地挖掘並前進。
               * 主動負責的多次核心大型功能的重構，如購物車、結帳流程、地址簿、優惠券、商品搜尋頁、品牌廣告曝光邏輯…等。
           - title: App Team CI/CD 流程從 0~1 的建立
+            images: 
+            - cicd.png
             detail: |
               App Team 使用的 CI/CD 工具一共迭代了三次
               1. 最初是 100% 使用 Bitrise 平台
@@ -169,15 +169,17 @@ sections:
               
               我最主要負責 SlackBot 的開發，該 SlackBot 可以讓 App Team 成員從 Slack 上直接操作 App CI/CD 流程，如每週發版/發 Hotfix）
               並且整合了 Google Calendar/Gmail，Google Calendar 負責以可視化的方式顯示目前流程進度，Gmail 負責接收來自 Google Play Console/App Store 的信件來追蹤版本發佈的狀況。
-          - title: 逐漸進化的 SlackBot
+          - title: 逐漸進化的 SlackBot | 公司內部的自動化流程解決方案
             images:
-              - a
+              - slack_banner.jpg
+              - bot.jpg
             detail: |
               如上自從 CI/CD 流程迭代至第三個版本後 SlackBot 便退役了，但我將它轉為面向 Pinkoi 全體成員的一套自動化解決方案，
               持續開發了許多方便的功能並被廣為使用
+              * 每天從 BigQuery 撈取營業額資訊，並產生圖表自動在 Slack 上顯示！
               * 整合了 Pinkoi 內部自動販賣機，讓員工可以直接在 Slack 上操作付款！
               * Payment QRCode 機器人，只需要一句話就能叫出收款者的收款 QRCode，而且永不過期！
-              * 擲骰子機器人，選 Team Building 主辦人的最佳工具！              
+              * 擲骰子機器人，選 Team Building 主辦人的最佳工具！
 
       - company: 雷特遊戲有限公司
         title: Senior Android Engineer

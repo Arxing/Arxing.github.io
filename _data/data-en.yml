@@ -35,7 +35,7 @@ sections:
       - Total downloads of my tools exceed 320,000
       - Rich refactoring experience
       - Broad skill set
-
+      - Automation Maniac
   skills:
     title: Skills
     categories:
@@ -100,6 +100,9 @@ sections:
           - name: Jekyll
             icon: jekyll.png
             rate: 60
+          - name: Bootstrap
+            icon: bootstrap.png
+            rate: 50
       - category: DevOps
         items:
           - name: Fastlane
@@ -131,12 +134,6 @@ sections:
           - name: Unity3D
             icon: unity.png
             rate: 40
-      - category: Others
-        items:
-          - name: Graph API
-            icon: facebook.png
-            rate: 40
-
   education:
     title: Education
     items:
@@ -165,6 +162,8 @@ sections:
               * During the development process, if I encounter features that are difficult to maintain/extend, I usually proceed with refactoring directly (the scope of refactoring depends on the situation) and deliver functionality within the same timeframe, just like a shield machine digging a tunnel, steadily pushing forward regardless of obstacles.
               * Took the initiative to refactor several core large features, such as shopping cart, checkout process, address book, coupon, product search page, brand advertisement exposure logic, etc.
           - title: Establishing CI/CD Process for App Team from 0 to 1
+            images: 
+            - cicd.png
             detail: |
               The CI/CD tools used by the App Team went through three iterations:
               1. Initially 100% using Bitrise platform
@@ -172,11 +171,13 @@ sections:
               3. Finally, GitHub Actions Self Hosted Runners + Fastlane
               
               I was mainly responsible for the development of the SlackBot, which allows App Team members to directly operate the App CI/CD process from Slack, such as weekly releases/hotfixes, and integrates with Google Calendar/Gmail. Google Calendar visualizes the current process progress, while Gmail receives emails from Google Play Console/App Store to track version release status.
-          - title: Gradually Evolving SlackBot
+          - title: Evolving SlackBot | Internal Automation Process Solutions
             images:
-              - a
+              - slack_banner.jpg
+              - bot.jpg
             detail: |
               Since the CI/CD process iterated to the third version, the SlackBot was retired, but I transformed it into an automated solution for all Pinkoi members, continuously developing many convenient features that are widely used:
+              * Fetch daily revenue information from BigQuery and automatically display the charts on Slack!
               * Integrated with the internal vending machine at Pinkoi, allowing employees to operate payments directly on Slack!
               * Payment QRCode Bot, which can call out the payer's QRCode with just one sentence, and it never expires!
               * Dice Bot, the best tool for selecting the host of Team Building!
